@@ -1,0 +1,15 @@
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1 .links{
+    display: flex;
+    column-gap: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #314584;
+}
