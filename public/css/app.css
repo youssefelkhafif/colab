@@ -4,15 +4,40 @@
     align-items: center;
 }
 
-.section1 .links{
-    display: flex;
-    column-gap: 10px;
+.logo{
+    position: relative;
 }
 
-.links a{
+.logo h1::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    left: 20px;
+}
+
+.section1 .links{
+    display: flex;
+    column-gap: 30px;
+
+}
+
+.section1 .links a{
     text-decoration: none;
     color: #314584;
 }
-a{
-    text-decoration: none;
+
+.links a:hover{
+    color: red;
+}
+
+.butt button{
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    border: none;
 }
