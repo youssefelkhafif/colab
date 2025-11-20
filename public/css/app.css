@@ -367,9 +367,11 @@ footer p {
 }
 
 @media (max-width:500px){
-      .child1 , .child2 , .child3 , footer{
+        .child2 , .child3 , footer{
         display: none;
     }
+     
+     /*nav-bar*/
 
     .section1 {
         flex-direction: column;
@@ -427,4 +429,33 @@ footer p {
     #check:checked ~ .butt button{
         left: 162px;
     }
+
+    /*child1-bar*/
+
+    .child1{
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        height: 115vh;
+       
+    }
+
+    .left{
+    padding-inline: 40px;
+    width: unset;
+    height: unset;
+    align-items: center;
+    position: absolute;
+    top: 670px;
+    }
+
+    .right {
+    width: unset;
+    z-index: 1;
+}
+
+.linko{
+    flex-direction: column;
+    row-gap: 20px;
+}
 }
