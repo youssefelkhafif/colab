@@ -7,9 +7,12 @@
 
 .section1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 10vh;
+    background-color: transparent;
+    position: relative;
+    z-index: 99;
 }
 
 .logo{
@@ -60,6 +63,8 @@ a{
     column-gap: 40px;
     align-items: center;
 }
+
+
 .linkred{
     background-color: red;
     height: 40px;
@@ -73,4 +78,40 @@ a{
 .left h1{
     font-size: 40px;
     font-weight: 800;
+}
+
+.left{
+    padding-inline: 140px;
+    width: 49vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left p{
+    line-height: 1.5;
+}
+
+
+
+.child1{
+    width: 98vw;
+        height: 63vh;
+    display: flex;
+}
+
+
+
+.right{
+    width: 49vw;
+    z-index: 1;
+}
+
+.right img{
+    width: 600px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1;
 }
