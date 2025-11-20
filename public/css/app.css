@@ -45,3 +45,27 @@
 h1{
     color: #314584;
 }
+a{
+    text-decoration: none;
+    color: #314584;
+    font-weight: 800;
+}
+.linko{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.linkred{
+    background-color: red;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 50px;
+}
+.left h1{
+    font-size: 40px;
+    font-weight: 800;
+}
