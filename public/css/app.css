@@ -1,14 +1,19 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family:'poppins',sans-serif ;
+    font-family: 'poppins', sans-serif;
 }
-body{
-    width: 99vw;
-    height: 200vh;
+
+
+
+/*head-nav*/
+body {
+    /* width: 98vw; */
+    /* height: 500vh; */
 }
-.section1{
+
+.section1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,34 +23,34 @@ body{
     z-index: 99;
 }
 
-.logo{
+.logo {
     position: relative;
     display: contents;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     width: 5%;
 }
 
-.section1 .links{
+.section1 .links {
     display: flex;
     column-gap: 30px;
     align-items: center;
 
 }
 
-.section1 .links a{
+.section1 .links a {
     text-decoration: none;
     color: #314584;
     font-weight: 800;
 }
 
-.links a:hover{
+.links a:hover {
     color: red;
 }
 
-.butt button{
+.butt button {
     padding: 10px;
     padding-inline: 20px;
     border-radius: 5px;
@@ -53,22 +58,26 @@ body{
     color: red;
     border: none;
 }
-h1{
+
+/*section1*/
+h1 {
     color: #314584;
 }
-a{
+
+a {
     text-decoration: none;
     color: #314584;
     font-weight: 800;
 }
-.linko{
+
+.linko {
     display: flex;
     column-gap: 40px;
     align-items: center;
 }
 
 
-.linkred{
+.linkred {
     background-color: red;
     height: 40px;
     width: 150px;
@@ -76,61 +85,74 @@ a{
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    border: none;
     border-radius: 50px;
 }
-.left h1{
+
+.left h1 {
     font-size: 40px;
     font-weight: 800;
 }
-.child3{
+
+/*section3*/
+.child3 {
     width: 80%;
     padding-left: 200px;
     margin-top: 100px;
     position: relative;
 }
-.heading h4{
+
+.heading h4 {
     color: red;
     font-weight: 600;
     font-size: 15px;
     padding-bottom: 20px;
 }
-.heading h1{
+
+.heading h1 {
     color: #314584;
     font-size: 35px;
     padding-bottom: 50px;
 }
-.inputs{
+
+.inputs {
     display: grid;
     grid-template-rows: 50px 150px;
     row-gap: 30px;
 }
-.up{
+
+.up {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
 }
-.inputs input{
+
+.inputs input {
     background-color: #F4FAFE;
     border: none;
 }
-.inputs input::placeholder{
+
+.inputs input::placeholder {
     padding-left: 15px;
     color: #314584;
     font-weight: 600;
-    
+
 }
-.inputs textarea{
-   
+
+.inputs textarea {
+
     border: none;
     background-color: #F4FAFE;
 }
-.inputs textarea::placeholder{
-     padding-left: 15px;
+
+.inputs textarea::placeholder {
+    padding-left: 15px;
     padding-top: 20px;
-     color: #314584;
+    color: #314584;
     font-weight: 600;
 }
-.child3 .button button{
+
+.child3 .button1 button {
     padding: 18px 40px;
     font-size: 15px;
     font-weight: 540;
@@ -143,8 +165,8 @@ a{
     left: 50%;
 }
 
-.left{
-    padding-inline: 200px;
+.left {
+    padding-inline: 117px;
     width: 49vw;
     flex-direction: column;
     display: flex;
@@ -152,46 +174,108 @@ a{
     gap: 20px;
 }
 
-.left p{
+.left p {
     line-height: 1.5;
 }
 
 
 
-.child1{
+.child1 {
     width: 98vw;
-        height: 63vh;
+    height: 75vh;
     display: flex;
 
 }
 
-
-
-.right{
+.right {
     width: 49vw;
     z-index: 1;
 }
 
-.right img{
+.right img {
     width: 600px;
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 3px;
     z-index: 1;
 }
-.child2{
+
+/*footer*/
+
+footer {
+    margin-top: 14vw;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    display: flex;
+    row-gap: 30px;
+    align-items: center;
+    background-color: #314584;
+}
+
+.foot-color {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foot-color h1 {
+    color: red;
+}
+
+.foot-color p {
+    color: white;
+}
+
+footer p {
+    color: gray;
+}
+
+.links2 {
+    display: flex;
+    column-gap: 30px;
+}
+
+.links2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.inter {
+    display: flex;
+    column-gap: 60px;
+}
+
+.inter a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.co {
+    font-size: 30px;
+}
+
+/*section2*/
+
+.child2 {
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    width: 90%;
+    width: 100%;
     column-gap: 100px;
     padding-top: 40px;
 
 }
-.part1 h1{
+
+.part1 h1 {
     font-size: 40px;
 }
-.clickred{
+
+.clickred {
     background-color: red;
     height: 60px;
     width: 205px;
@@ -201,59 +285,71 @@ a{
     color: aliceblue;
     border-radius: 50px;
 }
-.part1{
+
+.part1 {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    width: 25vw;
+}
+
+.part2 p {
+    line-height: 1.5;
+    font-size: 15px;
     width: 15vw;
 }
-.part2 p{
-        line-height: 1.5;
-        font-size: 18px;
-           width: 15vw;
+
+.part3 p {
+    line-height: 1.5;
+    font-size: 15px;
+    width: 15vw;
 }
-.part3 p{
-         line-height: 1.5;
-        font-size: 18px;
-           width: 15vw;
-}
-.part2{
+
+.part2 {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    width: 18vw;
-   box-shadow: 9px 8px 22px -2px rgba(0,0,0,0.47);
-    align-items: center;
-    height: 430px;
-   
+    padding: 40px;
+    
+    box-shadow: 9px 8px 22px -2px rgba(0, 0, 0, 0.47);
+    /* align-items: center; */
+    justify-content: center;
+    height: 400px;
+
 }
-.part3{
-     display: flex;
+
+.part3 {
+    display: flex;
     flex-direction: column;
     row-gap: 20px;
-    width: 18vw;
-   box-shadow: 9px 8px 22px -2px rgba(0,0,0,0.47);
-    align-items: center;
-    height: 430px;
+    padding: 40px;
+    
+    box-shadow: 9px 8px 22px -2px rgba(0, 0, 0, 0.47);
+    /* align-items: center; */
+    justify-content: center;
+    height: 400px;
 }
-.part2 h2{
-    width: 15vw;
-        font-size: 32px;
+
+.part2 h2 {
+    width: 17vw;
+    font-size: 32px;
 }
-.part3 h2{
-  width: 15vw;
-        font-size: 32px;
+
+.part3 h2 {
+    width: 17vw;
+    font-size: 32px;
 }
-.part1 h1{
-     line-height: 1.5;
+
+.part1 h1 {
+    line-height: 1.5;
 }
-.part2 img{
+
+.part2 img {
     position: relative;
-    left: -118px;
+    left: -22px;
 }
-.part3 img{
+
+.part3 img {
     position: relative;
-   left: -118px;
-}
-.child2{
+    left: -22px;
 }
