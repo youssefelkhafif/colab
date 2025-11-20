@@ -82,6 +82,66 @@ a{
     font-size: 40px;
     font-weight: 800;
 }
+.child3{
+    width: 80%;
+    padding-left: 200px;
+    margin-top: 100px;
+    position: relative;
+}
+.heading h4{
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.heading h1{
+    color: #314584;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.inputs{
+    display: grid;
+    grid-template-rows: 50px 150px;
+    row-gap: 30px;
+}
+.up{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+.inputs input{
+    background-color: #F4FAFE;
+    border: none;
+}
+.inputs input::placeholder{
+    padding-left: 15px;
+    color: #314584;
+    font-weight: 600;
+    
+}
+.inputs textarea{
+   
+    border: none;
+    background-color: #F4FAFE;
+}
+.inputs textarea::placeholder{
+     padding-left: 15px;
+    padding-top: 20px;
+     color: #314584;
+    font-weight: 600;
+}
+.child3 .button button{
+    padding: 18px 40px;
+    font-size: 15px;
+    font-weight: 540;
+    border-radius: 30px;
+    border: none;
+    background-color: #FF3946;
+    color: white;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+}
 
 .left{
     padding-inline: 200px;
@@ -194,4 +254,6 @@ a{
 .part3 img{
     position: relative;
    left: -118px;
+}
+.child2{
 }
